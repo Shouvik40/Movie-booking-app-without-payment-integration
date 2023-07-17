@@ -1,0 +1,46 @@
+
+
+
+table{
+    color: white;
+    border-collapse: separate;
+    border-spacing: 6px;
+}
+
+.seatCol{
+    padding: 3px 26px;
+}
+
+.seatCol img{
+    margin: 0 3px;
+}
+
+.availableSeats{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    margin: 0 4px;
+    background-repeat: no-repeat;
+    background-image: url("https://pixner.net/boleto/demo/assets/images/movie/seat01-free.png");
+}
+
+.selectedSeats{
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    margin: 0 4px;
+    background-repeat: no-repeat;
+    background-image: url("https://pixner.net/boleto/demo/assets/images/movie/seat01-booked.png");
+}
+
+.seatNo{
+    display: inline;
+}
+
+.availableSeats:hover .seatNo{
+   visibility: hidden;
+}
